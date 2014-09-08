@@ -1,0 +1,24 @@
+{
+  "name": "karma-env-preprocessor",
+  "version": "0.1.0",
+  "description": "A Karma plugin to read environment variables and make them available inside your tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jsok/karma-env-preprocessor.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-preprocessor",
+    "environment-variables"
+  ],
+  "author": "Jonathan Sokolowski <jonathan.sokolowski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsok/karma-env-preprocessor/issues"
+  },
+  "homepage": "https://github.com/jsok/karma-env-preprocessor"
+}
