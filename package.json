@@ -1,6 +1,6 @@
 {
   "name": "karma-env-preprocessor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Karma plugin to read environment variables and make them available inside your tests.",
   "main": "index.js",
   "scripts": {
