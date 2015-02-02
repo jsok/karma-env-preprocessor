@@ -3,8 +3,12 @@ var util = require('util');
 
 var DECLARATION = 'window.__env__ = window.__env__ || {};\n',
     TEMPLATE = function(name) {
-      var tmpl = 'window.__env__[\'%s\'] = \'%s\';\n'
-      return util.format(tmpl, name, process.env[name]);
+      if (typeof process.env[name] !== 'undefined') {
+        var tmpl = 'window.__env__[\'%s\'] = %s;\n';
+        return util.format(tmpl, name, process.env[name]);
+      } else {
+        return '';
+      }
     };
 
 var createEnvPreprocessor = function(args, config, logger, helper) {
