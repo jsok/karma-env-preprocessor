@@ -1,5 +1,7 @@
 # karma-env-preprocessor
 
+[![npm version](https://badge.fury.io/js/karma-env-preprocessor.svg)](http://badge.fury.io/js/karma-env-preprocessor)
+
 > Preprocessor which makes environment variables available to your tests.
 
 ## Installation
