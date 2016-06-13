@@ -21,6 +21,9 @@ You can simple do it by:
 npm install karma-env-preprocessor --save-dev
 ```
 
+To load `karma-env-preprocessor` into Karma you should add it to the plugins array in the Karma configuration file.
+For more information see [the Plugins section](http://karma-runner.github.io/0.13/config/plugins.html) of the Karma documentation.
+
 ## Configuration
 Any files you preprocess using this plugin will be affected, e.g for all JavaScript files:
 ```js
