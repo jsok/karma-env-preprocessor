@@ -34,7 +34,11 @@ module.exports = function(config) {
     envPreprocessor: [
       'PATH',
       'HOME'
-    ]
+    ],
+
+    plugins: [
+      'karma-env-preprocessor'
+    ],
   });
 };
 ```
